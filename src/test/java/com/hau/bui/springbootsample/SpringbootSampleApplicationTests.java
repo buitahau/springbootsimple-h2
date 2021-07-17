@@ -11,7 +11,7 @@ class SpringbootSampleApplicationTests {
 	@Test
 	void contextLoads() {
         HelloWorldController helloWorldController = new HelloWorldController();
-        Assertions.assertSame(helloWorldController.helloWorld(), "Welcome to Hau kute v1");
+        Assertions.assertSame("Welcome to Hau kute v1", helloWorldController.helloWorld());
 	}
 
 }
